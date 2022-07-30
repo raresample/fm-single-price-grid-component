@@ -1,0 +1,91 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  max-width: 375px;
+  margin: auto;
+  background-color: #e6eff6;
+}
+
+header {
+  padding: 1.5rem;
+  background-color: white;
+  margin-top: 4rem;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.5rem;
+}
+
+header h3 {
+  color: hsl(71, 73%, 54%);
+  margin: 1rem 0;
+}
+
+.headline {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.5rem;
+}
+
+.signup {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  padding: 1.5rem;
+}
+
+.price {
+  margin: .5rem 0;
+}
+.monthly {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.per-month {
+  color: hsl(218, 22%, 67%);
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 1.5rem;
+}
+
+.why {
+  background-color: #4abebd;
+  color: hsl(204, 43%, 93%);
+  padding: 1.5rem;
+}
+.why h3 {
+  color: white;
+  margin-bottom: 1.25rem;
+}
+.why p {
+  margin: 0.125rem 0;
+}
+
+footer {
+  margin-bottom: 4rem;
+}
