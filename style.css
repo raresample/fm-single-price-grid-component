@@ -45,17 +45,17 @@ header h3 {
 
 .headline {
   color: hsl(218, 22%, 67%);
-  line-height: 1.5rem;
+  line-height: 1.75rem;
 }
 
-.signup {
+.cta {
   background-color: hsl(179, 62%, 43%);
   color: white;
   padding: 1.5rem;
 }
 
 .price {
-  margin: .5rem 0;
+  margin: 1rem 0 .5rem 0;
 }
 .monthly {
   font-size: 2rem;
@@ -65,12 +65,14 @@ header h3 {
   color: hsl(218, 22%, 67%);
 }
 
-button {
+.signup {
   background-color: hsl(71, 73%, 54%);
   color: white;
   border: none;
   font-size: 1rem;
-  padding: 1.5rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 .why {
@@ -87,5 +89,6 @@ button {
 }
 
 footer {
+  margin-top: 1rem;
   margin-bottom: 4rem;
 }
