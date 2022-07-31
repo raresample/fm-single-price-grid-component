@@ -55,11 +55,14 @@ header h3 {
 }
 
 .price {
+  display: flex;
+  align-items: center;
   margin: 1rem 0 .5rem 0;
 }
 .monthly {
   font-size: 2rem;
   font-weight: 700;
+  margin-right: 1rem;
 }
 .per-month {
   color: hsl(218, 22%, 67%);
@@ -73,6 +76,8 @@ header h3 {
   margin-top: 2rem;
   padding: 1rem;
   text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.25);
 }
 
 .why {
@@ -91,4 +96,28 @@ header h3 {
 footer {
   margin-top: 1rem;
   margin-bottom: 4rem;
+}
+
+
+@media (min-width: 55em) {
+  body {
+    max-width: 800px;
+  }
+  header {
+    height: 13rem;
+    padding: 2rem;
+  }
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cta {
+    padding: 3rem;
+    flex-grow: 1;
+  }
+
+  .why {
+    padding: 3rem;
+    flex-grow: 1;
+  }
 }
