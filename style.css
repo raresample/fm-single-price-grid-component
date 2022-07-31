@@ -104,9 +104,16 @@ footer {
     max-width: 800px;
   }
   header {
-    height: 13rem;
-    padding: 2rem;
+    /* height: 13rem; */
+    padding: 3rem;
   }
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+  .headline {
+    font-size: 1.25rem;
+  }
+
   .bottom {
     display: flex;
     justify-content: space-between;
